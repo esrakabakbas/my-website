@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { translations } from '../translations/translations';
-import alesDocument from '../assets/documents/ales_sonuc.pdf';
-import lysDocument from '../assets/documents/osym_sonuc.pdf';
-import cvDocument from '../assets/documents/cv.pdf';
+
+// PDF files are now served from public folder
+const cvDocument = '/documents/cv.pdf';
+const alesDocument = '/documents/ales_sonuc.pdf';
+const lysDocument = '/documents/osym_sonuc.pdf';
 
  const Resume = ({ language = 'en' }) => {
    const [isExperienceOpen, setIsExperienceOpen] = useState(false);
