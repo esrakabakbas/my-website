@@ -27,7 +27,7 @@ LLMs (Large Language Models) have rapidly become a game-changing technology, and
 Bu repo, kişisel web sitemin kaynak kodlarını içerir.
 
 Tamamen **LLM destekli prompt tabanlı** bir geliştirme süreciyle hazırlandı.  
-*"Aa, ChatGPT'ye yaptırıp geçmiş işte,"* demeyin; pek öyle olmadı! 😄  
+*"Aa, ChatGPT'ye yaptırıp geçmiş işte,"* demeyin; bence o kadar basit bir şey değil.  
 LLM (Large Language Model) günümüzün ışık hızıyla hayatımıza giren önemli kavramlarından biri ve bu site de bu teknolojiyi pratiğe dökme amacıyla tasarlandı.
 
 ---
