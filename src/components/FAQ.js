@@ -84,14 +84,15 @@ const FAQ = ({ language = 'en' }) => {
                 borderTop: '1px solid rgba(255, 255, 255, 0.1)',
                 textAlign: 'left'
               }}>
-                <p style={{
+                <div style={{
                   fontSize: '16px',
                   lineHeight: '1.6',
                   margin: '0',
-                  color: '#f2e6c4'
+                  color: '#f2e6c4',
+                  whiteSpace: 'pre-line'
                 }}>
                   {translations[language].faqAnswer1}
-                </p>
+                </div>
               </div>
             )}
           </div>
@@ -142,14 +143,15 @@ const FAQ = ({ language = 'en' }) => {
                 borderTop: '1px solid rgba(255, 255, 255, 0.1)',
                 textAlign: 'left'
               }}>
-                <p style={{
+                <div style={{
                   fontSize: '16px',
                   lineHeight: '1.6',
                   margin: '0',
-                  color: '#f2e6c4'
+                  color: '#f2e6c4',
+                  whiteSpace: 'pre-line'
                 }}>
                   {translations[language].faqAnswer2}
-                </p>
+                </div>
               </div>
             )}
           </div>
@@ -200,14 +202,15 @@ const FAQ = ({ language = 'en' }) => {
                 borderTop: '1px solid rgba(255, 255, 255, 0.1)',
                 textAlign: 'left'
               }}>
-                <p style={{
+                <div style={{
                   fontSize: '16px',
                   lineHeight: '1.6',
                   margin: '0',
-                  color: '#f2e6c4'
+                  color: '#f2e6c4',
+                  whiteSpace: 'pre-line'
                 }}>
                   {translations[language].faqAnswer3}
-                </p>
+                </div>
               </div>
             )}
           </div>
@@ -258,14 +261,15 @@ const FAQ = ({ language = 'en' }) => {
                 borderTop: '1px solid rgba(255, 255, 255, 0.1)',
                 textAlign: 'left'
               }}>
-                <p style={{
+                <div style={{
                   fontSize: '16px',
                   lineHeight: '1.6',
                   margin: '0',
-                  color: '#f2e6c4'
+                  color: '#f2e6c4',
+                  whiteSpace: 'pre-line'
                 }}>
                   {translations[language].faqAnswer4}
-                </p>
+                </div>
               </div>
             )}
           </div>
@@ -316,14 +320,15 @@ const FAQ = ({ language = 'en' }) => {
                 borderTop: '1px solid rgba(255, 255, 255, 0.1)',
                 textAlign: 'left'
               }}>
-                <p style={{
+                <div style={{
                   fontSize: '16px',
                   lineHeight: '1.6',
                   margin: '0',
-                  color: '#f2e6c4'
+                  color: '#f2e6c4',
+                  whiteSpace: 'pre-line'
                 }}>
-                  Answer will be added here...
-                </p>
+                  {translations[language].faqAnswer5}
+                </div>
               </div>
             )}
           </div>
@@ -374,14 +379,15 @@ const FAQ = ({ language = 'en' }) => {
                 borderTop: '1px solid rgba(255, 255, 255, 0.1)',
                 textAlign: 'left'
               }}>
-                <p style={{
+                <div style={{
                   fontSize: '16px',
                   lineHeight: '1.6',
                   margin: '0',
-                  color: '#f2e6c4'
+                  color: '#f2e6c4',
+                  whiteSpace: 'pre-line'
                 }}>
-                  Answer will be added here...
-                </p>
+                  {translations[language].faqAnswer6}
+                </div>
               </div>
             )}
           </div>
@@ -432,14 +438,15 @@ const FAQ = ({ language = 'en' }) => {
                 borderTop: '1px solid rgba(255, 255, 255, 0.1)',
                 textAlign: 'left'
               }}>
-                <p style={{
+                <div style={{
                   fontSize: '16px',
                   lineHeight: '1.6',
                   margin: '0',
-                  color: '#f2e6c4'
+                  color: '#f2e6c4',
+                  whiteSpace: 'pre-line'
                 }}>
-                  Answer will be added here...
-                </p>
+                  {translations[language].faqAnswer7}
+                </div>
               </div>
             )}
           </div>

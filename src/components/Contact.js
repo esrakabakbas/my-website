@@ -58,34 +58,42 @@ const Contact = ({ language = 'en' }) => {
           maxWidth: '600px',
           margin: '40px auto 0'
         }}>
-          <div style={{
-            padding: '20px',
-            background: 'rgba(255, 255, 255, 0.1)',
-            borderRadius: '15px',
-            border: '1px solid rgba(255, 255, 255, 0.2)',
-            transition: 'all 0.3s ease',
-            cursor: 'pointer'
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.background = 'rgba(255, 255, 255, 0.2)';
-            e.target.style.transform = 'translateY(-5px)';
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.background = 'rgba(255, 255, 255, 0.1)';
-            e.target.style.transform = 'translateY(0)';
-          }}
+          <a 
+            href="mailto:esra.koyunoglu@outlook.com"
+            style={{
+              textDecoration: 'none',
+              color: 'inherit'
+            }}
           >
-            <h3 style={{
-              fontSize: '24px',
-              marginBottom: '10px',
-              fontWeight: 'bold'
-            }}>
-              📧 {translations[language].email}
-            </h3>
-            <p style={{ fontSize: '16px' }}>
-              esra.koyunoglu@outlook.com
-            </p>
-          </div>
+            <div style={{
+              padding: '20px',
+              background: 'rgba(255, 255, 255, 0.1)',
+              borderRadius: '15px',
+              border: '1px solid rgba(255, 255, 255, 0.2)',
+              transition: 'all 0.3s ease',
+              cursor: 'pointer'
+            }}
+            onMouseEnter={(e) => {
+              e.target.style.background = 'rgba(255, 255, 255, 0.2)';
+              e.target.style.transform = 'translateY(-5px)';
+            }}
+            onMouseLeave={(e) => {
+              e.target.style.background = 'rgba(255, 255, 255, 0.1)';
+              e.target.style.transform = 'translateY(0)';
+            }}
+            >
+              <h3 style={{
+                fontSize: '24px',
+                marginBottom: '10px',
+                fontWeight: 'bold'
+              }}>
+                📧 {translations[language].email}
+              </h3>
+              <p style={{ fontSize: '16px' }}>
+                esra.koyunoglu@outlook.com
+              </p>
+            </div>
+          </a>
           
           <div style={{
             padding: '20px',
@@ -116,63 +124,83 @@ const Contact = ({ language = 'en' }) => {
             </p>
           </div>
           
-          <div style={{
-            padding: '20px',
-            background: 'rgba(255, 255, 255, 0.1)',
-            borderRadius: '15px',
-            border: '1px solid rgba(255, 255, 255, 0.2)',
-            transition: 'all 0.3s ease',
-            cursor: 'pointer'
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.background = 'rgba(255, 255, 255, 0.2)';
-            e.target.style.transform = 'translateY(-5px)';
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.background = 'rgba(255, 255, 255, 0.1)';
-            e.target.style.transform = 'translateY(0)';
-          }}
+          <a 
+            href="https://linkedin.com/in/esrakoyunoglu"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              textDecoration: 'none',
+              color: 'inherit'
+            }}
           >
-            <h3 style={{
-              fontSize: '24px',
-              marginBottom: '10px',
-              fontWeight: 'bold'
-            }}>
-              💼 {translations[language].linkedin}
-            </h3>
-            <p style={{ fontSize: '16px' }}>
-              linkedin.com/in/esrakoyunoglu
-            </p>
-          </div>
+            <div style={{
+              padding: '20px',
+              background: 'rgba(255, 255, 255, 0.1)',
+              borderRadius: '15px',
+              border: '1px solid rgba(255, 255, 255, 0.2)',
+              transition: 'all 0.3s ease',
+              cursor: 'pointer'
+            }}
+            onMouseEnter={(e) => {
+              e.target.style.background = 'rgba(255, 255, 255, 0.2)';
+              e.target.style.transform = 'translateY(-5px)';
+            }}
+            onMouseLeave={(e) => {
+              e.target.style.background = 'rgba(255, 255, 255, 0.1)';
+              e.target.style.transform = 'translateY(0)';
+            }}
+            >
+              <h3 style={{
+                fontSize: '24px',
+                marginBottom: '10px',
+                fontWeight: 'bold'
+              }}>
+                💼 {translations[language].linkedin}
+              </h3>
+              <p style={{ fontSize: '16px' }}>
+                linkedin.com/in/esrakoyunoglu
+              </p>
+            </div>
+          </a>
           
-          <div style={{
-            padding: '20px',
-            background: 'rgba(255, 255, 255, 0.1)',
-            borderRadius: '15px',
-            border: '1px solid rgba(255, 255, 255, 0.2)',
-            transition: 'all 0.3s ease',
-            cursor: 'pointer'
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.background = 'rgba(255, 255, 255, 0.2)';
-            e.target.style.transform = 'translateY(-5px)';
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.background = 'rgba(255, 255, 255, 0.1)';
-            e.target.style.transform = 'translateY(0)';
-          }}
+          <a 
+            href="https://github.com/esrakabakbas"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              textDecoration: 'none',
+              color: 'inherit'
+            }}
           >
-            <h3 style={{
-              fontSize: '24px',
-              marginBottom: '10px',
-              fontWeight: 'bold'
-            }}>
-              🐙 {translations[language].github}
-            </h3>
-            <p style={{ fontSize: '16px' }}>
-              github.com/esrakabakbas
-            </p>
-          </div>
+            <div style={{
+              padding: '20px',
+              background: 'rgba(255, 255, 255, 0.1)',
+              borderRadius: '15px',
+              border: '1px solid rgba(255, 255, 255, 0.2)',
+              transition: 'all 0.3s ease',
+              cursor: 'pointer'
+            }}
+            onMouseEnter={(e) => {
+              e.target.style.background = 'rgba(255, 255, 255, 0.2)';
+              e.target.style.transform = 'translateY(-5px)';
+            }}
+            onMouseLeave={(e) => {
+              e.target.style.background = 'rgba(255, 255, 255, 0.1)';
+              e.target.style.transform = 'translateY(0)';
+            }}
+            >
+              <h3 style={{
+                fontSize: '24px',
+                marginBottom: '10px',
+                fontWeight: 'bold'
+              }}>
+                🐙 {translations[language].github}
+              </h3>
+              <p style={{ fontSize: '16px' }}>
+                github.com/esrakabakbas
+              </p>
+            </div>
+          </a>
         </div>
       </div>
 
