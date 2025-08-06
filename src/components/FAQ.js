@@ -90,7 +90,7 @@ const FAQ = ({ language = 'en' }) => {
                   margin: '0',
                   color: '#f2e6c4'
                 }}>
-                  Answer will be added here...
+                  {translations[language].faqAnswer1}
                 </p>
               </div>
             )}
@@ -148,7 +148,7 @@ const FAQ = ({ language = 'en' }) => {
                   margin: '0',
                   color: '#f2e6c4'
                 }}>
-                  Answer will be added here...
+                  {translations[language].faqAnswer2}
                 </p>
               </div>
             )}
@@ -206,7 +206,7 @@ const FAQ = ({ language = 'en' }) => {
                   margin: '0',
                   color: '#f2e6c4'
                 }}>
-                  Answer will be added here...
+                  {translations[language].faqAnswer3}
                 </p>
               </div>
             )}
@@ -264,7 +264,7 @@ const FAQ = ({ language = 'en' }) => {
                   margin: '0',
                   color: '#f2e6c4'
                 }}>
-                  Answer will be added here...
+                  {translations[language].faqAnswer4}
                 </p>
               </div>
             )}
