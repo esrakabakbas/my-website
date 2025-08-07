@@ -1,3 +1,14 @@
-# https://www.robotstxt.org/robotstxt.html
+# robots.txt for https://esrakoyunoglu.com
 User-agent: *
-Disallow:
+Disallow: /private/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /src/
+Disallow: /Dockerfile
+Disallow: /nginx.conf
+Disallow: /package.json
+Disallow: /package-lock.json
+
+Allow: /
+
+Sitemap: https://esrakoyunoglu.com/sitemap.xml
